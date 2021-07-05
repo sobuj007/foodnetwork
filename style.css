@@ -1,8 +1,72 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 section{
     height: 80vh;
     clear: both;
+}
+.hero_area{
+margin: 0;
+padding: 0;
+}
+.wrapper{
+    margin: 5%;
+    position: absolute;
+    }
+
+.hero_content_area{
+    width:50% ;
+    position: relative;
+    float: left;
+    padding: 150px 0px;
+}
+.hero_content_area h2{
+    width: 700px;
+    font-size: 65px;
+    font-weight: 700;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+.hero_content_area span{
+    font-size: 65px;
+    font-weight: 700;
+   color:orange;
+
+}
+.hero_content_area p{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 35px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  
+
+}
+.hero_content_area a{
+    margin: 20px 0px;
+    padding: 15px 20px;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+
+}
+
+.hero_img_area{
+    position: relative;
+    float: right;
+    width: 45%;
+    
+}
+.hero_img_area img{
+   height: 100%;
+   width: 100%;
+   align-self: end;
 }
