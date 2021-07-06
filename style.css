@@ -240,7 +240,7 @@ display: block;
    padding: 25px 0px;
 }
 .singel_counter p{
-    font-size: 25px;
+    font-size: 22px;
   
  }
 
@@ -258,7 +258,7 @@ display: block;
    font-size: 30px;
    font-weight: 700;
    text-transform: uppercase;
-    color: white;
+    color: rgba(255, 255, 255, 0.432);
     margin: 40px 0px;
 
 }
