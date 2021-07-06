@@ -104,9 +104,10 @@ position: relative;
  
  }
 .about_content{
-    width:40%;
+    width:30%;
     float: left;
     margin-top: 120px;
+    margin-left: 150px;
 }
 .about_content h2{
     font-size: 40px;
@@ -123,7 +124,7 @@ position: relative;
 }
 .about_content a{
     margin: 20px 0px;
-    padding: 15px 20px;
+    padding: 15px 35px;
     color: white;
     background-image: linear-gradient(orange, tomato);
   font-size: 18px;
@@ -141,6 +142,7 @@ position: relative;
     margin: 0;
     padding: 0;
     position: relative;
+   
     padding: 0px 150px;}
 .title{
     margin: 25px auto;
@@ -149,21 +151,55 @@ position: relative;
 .title h3{
     font-size: 40px;
 }
+.title p{
+   margin: 35px 350px;
+   line-height: 30px;
+}
 .recipies_content{ 
     position: relative;
     text-align: center;
+    background-color: lightcoral;
+    padding: 0px 80px;
 
 }
 .singel_recipie{
     width: 25%;
     color: orange;
     float: left;
-    height: 500px;
-    margin-left: 90px;
+    height: 530px;
+    margin-left: 100px;
+    padding: 15px;
     border-radius: 15px;
-    box-shadow: 2px 4px 8px 2px rgba(114, 114, 114, 0.123), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 0px;
+    box-shadow: 2px 4px 8px 2px rgba(226, 225, 225, 0.24), 0 6px 20px 0 rgba(207, 206, 206, 0.397);
+    text-align: start;
 }
-/* .singel_recipie:last-child{
+.singel_recipie:first-child{
+    margin-left: 0px;
+}
+
+.singel_recipie img{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 20px;
   
+}
+.singel_recipie h3{
+    margin: 25px 0px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #000
+    
+  
+}
+
+.singel_recipie p{
     margin: 15px 0px;
-} */
+    font-size: 18px;
+    font-weight: 300;
+    color: #000;
+    line-height: 28px;
+    
+  
+}
